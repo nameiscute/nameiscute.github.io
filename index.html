@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Chimie Na</title>
+	<link rel="stylesheet" href="css/structura-na.css">
+</head>
+<body>
+	<div id="origine-and-stuff" style="padding-bottom: 20px">
+		<span><b>Sodiul</b> (sau <b>natriul</b>) a fost descoperit de <span style="color:red">Humphry Davy</span> în 1807.</span>
+		<br>
+		<span>Numele acestuia provine din latinul <i>natrium</i>, care inseamna sodiu carbonat</span>
+		<br> 
+		<span>Acesta este un <i>metal alcalin activ</i>, <span style="color:gray">argintiu</span> și moale.</span>
+		<br>
+		<span>Sodiul reacționează violent cu apa, rezultând în <i style="color:gray">gaz inflamabil.</i></span>
+		<br>
+		<span>La temperaturi obișnuite în stare liberă, sodiul fumegă, iar la temperaturi de peste <span style="color:orange">115°C</span>, acesta ia foc.</span>
+		<br>
+		<span>Sodiul este un conductor <span style="color:cyan">electric</span> excelent.</span>
+	</div>
+	<div id="detalii">
+		<div id="Left-Panel" style="position:absolute;left:5%;">
+			<span>Numele: Sodiu</span>
+			<br>
+			<span>Simbolul: Na</span>
+			<br>
+			<span>Masa atomică relativă: 22,98</span>
+			<br>
+			<span>Numărul periodic: 11</span>
+
+		</div>
+		<div id="Right-Panel" style="position:absolute;left:80%;">
+			<span>Gradul de oxidare: +1</span>
+			<br>
+			<span>Valența maximă: 1</span>
+			<br>
+			<span>Perioada a 3-a</span>
+			<br>
+			<span>Grupa întâia, subgrupa principală</span>
+		</div>
+	</div>
+	<div id="structura-na">
+		<svg id="svg-el" width="500" height="500">
+			<circle cx="250" cy="250" r="40" fill="#f7c862" />
+			<text x="250" y="260" font-size="32" fill="black" text-anchor='middle' alignment-baseline="central">Na</text>
+			<circle cx="250" cy="250" r="80" fill="transparent" stroke="black" stroke-width="2"/>
+			<g id="first-ring">
+				<circle cx="170" cy="250" r="6" fill="cyan" stroke="gray" stroke-width="1" />
+				<circle cx="330" cy="250" r="6" fill="cyan" stroke="gray" stroke-width="1" />
+				<animateTransform
+					attributeName="transform"
+					begin="0s"
+					dur="2s"
+					type="rotate"
+					from="0 250 250"
+					to="360 250 250"
+					repeatCount="indefinite"
+				/>
+			</g>
+			<circle cx="250" cy="250" r="120" fill="transparent" stroke="black" stroke-width="2"/>
+			<g id="second-ring">
+				<circle cx="370" cy="250" r="6" fill="cyan" stroke="gray" stroke-width="1"/>
+				<circle cx="130" cy="250" r="6" fill="cyan" stroke="gray" stroke-width="1"/>
+				<circle cx="340" cy="170" r="6" fill="cyan" stroke="gray" stroke-width="1"/>
+				<circle cx="340" cy="330" r="6" fill="cyan" stroke="gray" stroke-width="1"/>
+				<circle cx="160" cy="170" r="6" fill="cyan" stroke="gray" stroke-width="1"/>
+				<circle cx="160" cy="330" r="6" fill="cyan" stroke="gray" stroke-width="1"/>
+				<circle cx="250" cy="130" r="6" fill="cyan" stroke="gray" stroke-width="1"/>
+				<circle cx="370" cy="250" r="6" fill="cyan" stroke="gray" stroke-width="1"/>
+				<circle cx="250" cy="370" r="6" fill="cyan" stroke="gray" stroke-width="1"/>
+				<animateTransform
+					attributeName="transform"
+					begin="0s"
+					dur="7s"
+					type="rotate"
+					from="0 250 250"
+					to="360 250 250"
+					repeatCount="indefinite"
+				/>
+			</g>
+			<circle cx="250" cy="250" r="160" fill="transparent" stroke="black" stroke-width="2"/>
+			<g id="third-ring">
+				<circle cx="250" cy="90" r="6" fill="cyan" stroke="gray" stroke-width="1"/>
+				<animateTransform
+					attributeName="transform"
+					begin="0s"
+					dur="15s"
+					type="rotate"
+					from="0 250 250"
+					to="360 250 250"
+					repeatCount="indefinite"
+				/>
+			</g>
+		</svg>
+	</div>
+	<iframe width="640" height="480" src="https://www.youtube.com/embed/hxrQrOlWGH0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>
