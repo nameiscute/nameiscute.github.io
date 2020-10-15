@@ -1,21 +1,17 @@
 #detalii {
 	position:static;
-	padding: 50px;
-	height: 350px;
-	background-color: gray;
-	border-style: solid;
 }
 #svg-el {
-	margin: 0;
-	position: absolute;
-	top: 60%;
-	left: 50%;
-	-ms-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
+	display: block;
+	margin: auto;
 }
 
-span {
+#bottom-section {
 	font-size: 18px;
+	padding: 30px;
+	position: relative;
+	background-color: gray;
+	border-style: solid;
 }
 
 iframe {
